@@ -1,0 +1,8 @@
+# The site is plain HTML/CSS/JS: nothing to build, publish the repo root as-is.
+[build]
+  publish = "."
+  command = ""
+
+# Serverless function that serves live quotes at /api/quotes
+[functions]
+  directory = "netlify/functions"

@@ -1,0 +1,15 @@
+# Old pretty URLs from the previous version of the site keep working.
+/research/seil                      /research.html?id=seil                      301
+/research/waaree                    /research.html?id=waaree                    301
+/research/genz                      /research.html?id=genz                      301
+/research/airtel                    /research.html?id=airtel                    301
+/research/sunpharma                 /research.html?id=sunpharma                 301
+/blog/india-ai-compute-gap          /post.html?id=india-ai-compute-gap          301
+/blog/india-equities-next-decade    /post.html?id=india-equities-next-decade    301
+/blog/us-treasury-yields-5-percent  /post.html?id=us-treasury-yields-5-percent  301
+/blog/india-urea-paradox            /post.html?id=india-urea-paradox            301
+
+# The old resume link now points at the new resume.
+/documents/pratik-sahoo-resume.pdf  /documents/Pratik_P_Sahoo_resume%20and%20Portfolio.pdf  301!
+
+# Unknown URLs fall through to 404.html automatically; /api/quotes is served by netlify/functions/quotes.mjs.
